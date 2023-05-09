@@ -18,6 +18,10 @@ public class WhenWorkingWithFloatingPointNumbers {
 
         // TODO: Use a floating point calculation to calculate the farenheit equivalent of the celcius value.
 
+        double faranhietCalculation = 27.0d / 5 * 9 + 32;
+
+        farenheit = faranhietCalculation;
+
         assertThat(farenheit, equalTo(80.6));
     }
 
@@ -31,6 +35,10 @@ public class WhenWorkingWithFloatingPointNumbers {
         double weightInPounds = 0;
 
         // TODO: Use a floating point calculation to calculate the correct weight in pounds
+
+        double weightInPoundscalc = 50 * 2.20462;
+
+        weightInPounds = weightInPoundscalc;
 
         assertThat(weightInPounds, equalTo(110.231));
 
